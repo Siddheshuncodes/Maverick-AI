@@ -7,7 +7,7 @@ export function SignUp() {
   const navigate = useNavigate();
   const [formData, setFormData] = useState({
     fullName: "",
-    email: "",
+    email: "",  
     password: "",
     confirmPassword: ""
   });
