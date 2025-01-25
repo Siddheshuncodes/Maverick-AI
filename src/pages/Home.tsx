@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { CheckCircle, Clock, MessageCircle, ShoppingBag, Gamepad2, Chrome, ArrowRight, PlayCircle, UserPlus } from "lucide-react";
-import { useNavigate, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { ScrollSection } from "../components/ScrollSection";
 import { Footer } from '../components/Footer';
 
@@ -15,7 +15,6 @@ const SplitText = ({ text }: { text: string }) => {
 };
 
 export function Home() {
-  const navigate = useNavigate();
 
   const founders = [
     {
@@ -114,7 +113,7 @@ export function Home() {
               Chrome Extension
             </Link>
           </motion.div>
-
+ 
           {/* Countdown Timer */}
           {/* <motion.div 
             initial={{ opacity: 0 }}
